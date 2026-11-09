@@ -33,17 +33,14 @@
 
 ## 📊 GitHub Statistics
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ZafffKon&show_icons=true&theme=tokyonight&hide_border=true" alt="Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZafffKon&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZafffKon&theme=tokyonight" alt="Profile details"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ZafffKon&theme=tokyonight&hide_border=true" alt="Streak"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZafffKon&theme=tokyonight" alt="Stats"/>
+  <img height="170" src="https://streak-stats.demolab.com/?user=ZafffKon&theme=tokyonight&hide_border=true" alt="Streak"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph"/>
-</p>
 
 
 ## 📌 Proyek Unggulan
