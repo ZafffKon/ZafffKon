@@ -5,6 +5,10 @@ on:
     # Setiap hari pukul 00:00 UTC (07:00 WIB)
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
 
 jobs:
   build:
@@ -17,7 +21,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          # Token pribadi (secret) agar kontribusi repo private ikut terhitung;
+          # jika secret belum ada, memakai token bawaan (hanya data publik).
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
