@@ -33,11 +33,16 @@
 
 ## 📊 GitHub Statistics
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ZafffKon&theme=tokyonight&hide_border=true&v=2" alt="Streak"/>
+  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details"/>
 </p>
 
 <p align="center">
-  <img width="100%" src="https://ghchart.rshah.org/39d353/ZafffKon" alt="Contribution graph"/>
+  <img height="170" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats"/>
+  <img height="170" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top languages by commit"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=ZafffKon&theme=tokyonight&hide_border=true&v=2" alt="Streak"/>
 </p>
 
 
